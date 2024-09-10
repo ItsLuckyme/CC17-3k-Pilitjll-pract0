@@ -33,14 +33,19 @@ fun main() {
     println("-------------------------------------------")
 
     println("FANTASY STORY")
-    val bida = ""
-    val monster = ""
-    val weapon = ""
-    val armor = ""
-    val ulti = ""
+    val bida = "Lucky"
+    val monster = "Undead Titan"
+    val weapon = "Sword"
+    val armor = "Diamond Armor"
+    val ulti = "Infinity Slash"
     val story = """
-        
-    """.trimIndent()
+    In the ancient land of Eldoria, a brave warrior named $bida set out to defeat the monstrous $monster. 
+    Armed with his legendary $weapon and protected by his $armor, $bida faced the Titan in an epic battle.
+    Though the $monster was powerful, $bida unleashed his ultimate skill, $ulti, 
+    which cleaved through the beast and saved the kingdom from destruction.
+""".trimIndent()
+    println(story)
+
 
     println(story)
 }
